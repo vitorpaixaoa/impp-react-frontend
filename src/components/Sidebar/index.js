@@ -34,9 +34,7 @@ export default function Sidebar(props) {
                 )}
 
                 <NavItem navSize={navSize} href="/" icon={HiOutlineDesktopComputer} title="Dashboard"
-                         active={props.categoria === "Dashboard"}/>
-                <NavItem navSize={navSize} href="/" icon={RiBankFill} title="Instituições"
-                         active={props.categoria === "Instituições"}/>
+                         active/>
 
             </Flex>
             <IconButton
