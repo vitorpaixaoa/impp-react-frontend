@@ -1,1 +1,1 @@
-export const API = "http://localhost:8080"
+export const API = process.env.NODE_ENV === "production" ?  process.env.REACT_APP_HEROKU_API : "http://localhost:8080"
